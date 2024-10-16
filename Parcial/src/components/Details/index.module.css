@@ -1,0 +1,127 @@
+.detailsContainer {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.toggleThemeButton {
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+}
+
+.toggleThemeButton:hover {
+    background-color: #595858;
+}
+
+
+.backButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+}
+
+.editButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+}
+
+.backButton:hover {
+    background-color: #0056b3;
+}
+
+.editButton:hover {
+    background-color: #0056b3;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin: 20px 0 20px 20px ;
+}
+
+.editButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.infoContainer {
+    border-bottom: 1px solid #696969;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.titles {
+    font-size: 1.5em;
+    margin-left: 20px;
+    color: #333333;
+}
+
+.info {
+    font-size: 1.2em;
+    margin-left: 20px;
+    color: #333333;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkMode {
+    background-color: #333333;
+}
+
+.darkModeTitle {
+    color: white;
+}
+
+.darkModeInfo {
+    color: white;
+}
+
+.darkModeContainer {
+    background-color: #333333;
+}
+
+.darkModeButton {
+    background-color: #29bdb3;
+}
+
+.darkModeButton:hover {
+    background-color: #6be2da;
+}

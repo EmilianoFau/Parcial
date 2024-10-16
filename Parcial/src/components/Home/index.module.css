@@ -1,0 +1,96 @@
+.recipeList {
+    display: flex;
+    overflow-x: auto;
+    width: 90vw;
+    margin: 0;
+    white-space: nowrap;
+    gap: 20px;
+    list-style: none;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toggleThemeButton {
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+}
+
+.toggleThemeButton:hover {
+    background-color: #595858;
+}
+
+.homeContainer {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.addButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+}
+
+.addButton:hover {
+    background-color: #0056b3;
+}
+
+@media (min-width: 1024px) {
+    .recipeList {
+        display: flex;
+        overflow-x: auto;
+        width: 90vw;
+        margin: 0;
+        white-space: nowrap;
+        gap: 20px;
+        list-style: none;
+        padding-bottom: 20px;
+        flex-wrap: nowrap;
+    }
+
+    .homeContainer {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto; 
+        padding: 20px; 
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
